@@ -1147,7 +1147,7 @@
 	)
 	(polyline
 		(pts
-			(xy 227.33 124.46) (xy 205.74 124.46)
+			(xy 199.39 118.11) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1155,9 +1155,59 @@
 		)
 		(uuid "00c6067c-5ff8-4088-b9a3-bbb3a26e8ccf")
 	)
+	(wire
+		(pts
+			(xy 205.74 111.76) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d890a1d-aec0-4020-a9b7-87192782b83f")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311f17c2-9f70-4ee3-b210-2a6fad57bdcd")
+	)
+	(wire
+		(pts
+			(xy 205.74 116.84) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383f5729-3e51-474e-93af-b33f9125ded8")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 215.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4653e7b0-3a48-40f0-9268-8263b405fa48")
+	)
+	(wire
+		(pts
+			(xy 215.9 116.84) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49614e06-0120-4d1f-bc22-50ef11281c99")
+	)
 	(polyline
 		(pts
-			(xy 227.33 90.17) (xy 227.33 124.46)
+			(xy 233.68 118.11) (xy 199.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1237,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 124.46) (xy 205.74 90.17)
+			(xy 199.39 96.52) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1197,13 +1247,43 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 90.17) (xy 227.33 90.17)
+			(xy 233.68 96.52) (xy 233.68 118.11)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "a841eff6-98d9-4179-bb84-d8abf5dd6195")
+	)
+	(wire
+		(pts
+			(xy 208.28 109.22) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ba831f-3a9c-42c9-bf48-e55bf5e17247")
+	)
+	(wire
+		(pts
+			(xy 207.01 106.68) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3311f1b-e1e0-4464-8b7b-771cad65daad")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 208.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3642471-b3b8-4bad-9c46-7f6a8b1bd732")
 	)
 	(polyline
 		(pts
@@ -1214,6 +1294,16 @@
 			(type dash)
 		)
 		(uuid "d3d7e298-1d39-4294-a3ab-c84cc0dc5e5a")
+	)
+	(wire
+		(pts
+			(xy 207.01 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fd6715-f116-4274-93cd-e06e01f2f263")
 	)
 	(polyline
 		(pts
@@ -1249,7 +1339,7 @@
 	)
 	(text "Screen"
 		(exclude_from_sim no)
-		(at 207.01 95.25 0)
+		(at 199.136 95.25 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -1260,7 +1350,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 218.44 109.22 270)
+		(at 205.74 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1270,7 +1360,7 @@
 		)
 		(uuid "059a4790-2255-436c-9bc3-8a446f276a03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.3606 114.9913 90)
+			(at 199.962 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1701,7 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 220.98 109.22 270)
+		(at 205.74 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1621,7 +1711,7 @@
 		)
 		(uuid "29cf66c2-c02d-4f8c-9d64-884503ed04d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.9006 114.0237 90)
+			(at 200.9295 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1833,7 @@
 	)
 	(global_label "vcc"
 		(shape input)
-		(at 215.9 109.22 270)
+		(at 207.01 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1753,7 +1843,7 @@
 		)
 		(uuid "4c29d0d3-42cb-479f-8cbe-0c2a59e9436f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8206 114.689 90)
+			(at 201.5342 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2119,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 213.36 109.22 270)
+		(at 207.01 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2039,7 +2129,7 @@
 		)
 		(uuid "8e0fbe1d-41bc-4c9d-bfc7-bde26816019e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2806 115.2937 90)
+			(at 200.9295 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2336,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 210.82 109.22 270)
+		(at 207.01 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2256,7 +2346,7 @@
 		)
 		(uuid "c0380b02-05b6-4480-a26e-51b586aa25ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.7406 116.1404 90)
+			(at 200.0828 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 26.67 33.02 0)
 			(effects
 				(font
@@ -3037,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 49.53 24.13 0)
 			(effects
 				(font
@@ -3104,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 72.39 20.32 0)
 			(effects
 				(font
@@ -3171,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 95.25 24.13 0)
 			(effects
 				(font
@@ -3238,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -3305,7 +3395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 26.67 54.61 0)
 			(effects
 				(font
@@ -3372,7 +3462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -3439,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 72.39 41.91 0)
 			(effects
 				(font
@@ -3506,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 95.25 45.72 0)
 			(effects
 				(font
@@ -3573,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 49.53 64.77 0)
 			(effects
 				(font
@@ -3640,7 +3730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -3707,7 +3797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 95.25 64.77 0)
 			(effects
 				(font
@@ -3911,7 +4001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -3978,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 118.11 55.88 0)
 			(effects
 				(font
@@ -4022,7 +4112,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 215.9 104.14 90)
+		(at 220.98 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4031,23 +4121,23 @@
 		(fields_autoplaced yes)
 		(uuid "cb29bc4e-0c3b-477c-ba8e-ee133db5ff96")
 		(property "Reference" "J1"
-			(at 215.9 97.79 90)
+			(at 227.33 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ScreenL"
-			(at 215.9 100.33 90)
+		(property "Value" "nice!view"
+			(at 224.79 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 215.9 104.14 0)
+		(property "Footprint" "chelming-kbd:nice-view_reversible"
+			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 104.14 0)
+			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 104.14 0)
+			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "chelming-kbd:choc_v1_hotswap_reversible_no_extras"
 			(at 118.11 86.36 0)
 			(effects
 				(font

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "chelming-kbd")(type "KiCad")(uri "/Users/chris/git/PurringCat/chelming-kbd.pretty")(options "")(descr ""))
+)
